@@ -28,10 +28,10 @@ target_link_libraries(mbgl-core PUBLIC
     boost
     mapbox-base-extras
     mapbox-base
+    mapbox-base-io
     ${ICU_LIBRARY}
     polylabel
     protozero
-    Mapbox::Base::Extras::rapidjson
     vector-tile
 )
 
